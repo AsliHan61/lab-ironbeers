@@ -5,3 +5,50 @@ dark-blue: #0a2c42;
 grey: #bfbfbf;
 font-family: Arial, Helvetica, sans-serif;
 */
+*{
+
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial,Helvetia, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+nav{
+    background-color: #2081c3;
+    color: white;
+}
+
+.home-buttons{
+    color:#2081c3
+}
+
+footer{
+    background-color: #2081c3;
+    color: white;
+    height: 50px;
+    justify-content: end;
+}
+
+.footer{
+    display: block;
+    justify-content: center;
+}
+
+.button-container {
+    margin-top: 20px;
+}
+
+.button-link {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.button-link:hover {
+    background-color: #0056b3;
+}

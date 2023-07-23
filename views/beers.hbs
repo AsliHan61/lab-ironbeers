@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Beers Page</title>
+<link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <h1>All Beers</h1>
+    <ul>
+        {{#each beers}}
+        <li>
+            <img src="{{image_url}}" alt="{{name}}" style="max-height: 100px">
+            <h2>{{name}}</h2>
+            <p>{{description}}</p>
+            <p>{{tagline}}</p>
+        </li>
+        {{/each}}
+    </ul>
+</body>
+</html>
